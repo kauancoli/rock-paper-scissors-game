@@ -28,7 +28,9 @@ function App() {
         </S.Icon>
       </S.Icons>
 
-      <S.Button>Rules</S.Button>
+      <S.Button>
+        <button>Rules</button>
+      </S.Button>
     </S.Main>
   );
 }

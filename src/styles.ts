@@ -61,8 +61,15 @@ export const Icon = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.div`
   @media (min-width: 375px) {
+    display: flex;
+    justify-content: center;
     font-size: 1.8rem;
+
+    button {
+      padding: 1rem 2rem;
+      border-radius: 0.8rem;
+    }
   }
 `;
